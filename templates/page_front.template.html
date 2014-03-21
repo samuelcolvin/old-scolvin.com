@@ -5,7 +5,7 @@
         {% for item in bricks %}
             <div class="col-md-4 col-lg-3 col-sm-6">
                 <div class="brick" style="{{ item.style }}">
-                    <a href="{{ item.link }}" target="_blank">
+                    <a href="{{ item.link }}">
                         <div class="img-holder">
                         {% if item.img %}
                         <img src="{{ static }}{{ item.img }}" height="140"/>
