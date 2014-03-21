@@ -1,0 +1,20 @@
+{
+    "site_title": "Samuel Colvin",
+    "author": "Samuel Colvin",
+    "description": "Public Website of Samuel Colvin",
+    "external_links": [
+        {"link": "https://github.com/samuelcolvin", "name": "Github"},
+        {"link": "http://stackoverflow.com/users/949890/scolvin", "name": "Stack Overflow"},
+        {"link": "http://uk.linkedin.com/pub/samuel-colvin/23/315/275/", "name": "Linkdin"}
+    ],
+    "page_menu": [
+        {"link": "cv", "name": "CV"},
+        {"link": "contact", "name": "Contact"}
+    ],
+    "bricks": [
+        {"link": "#", "name": "Tutor Cruncher", "tag": "Agency CRM, Invoice and Billing Software"},
+        {"link": "#", "name": "Donkey Simple", "tag": "Static Site generator"},
+        {"link": "#", "name": "Julia By Example", "tag": "Series of examples of simple tasks in Julia (Julia Lang)"},
+        {"link": "/browser/", "name": "Browser Features", "tag": "Series of examples of simple tasks in Julia (Julia Lang)"}
+    ]
+}

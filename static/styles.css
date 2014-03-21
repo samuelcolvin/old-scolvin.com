@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(ubuntu.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(ubuntu_bold.ttf) format('truetype');
+}
+
+body{
+  font-family: Ubuntu, sans-serif;
+  background-color: #cce;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#canvas_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main {
+  text-align: left;
+  max-width: 800px;
+  margin: 0px auto;
+  background-color: white;
+  color: black;
+  min-width: 300px;
+}
+
+.main .navbar{
+    background-color: black;
+    border-radius: 0px;
+    height: 80px;
+    padding-top: 12px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #222;
+}
+
+.main .content{
+  padding: 30px 80px 100px;
+}
+@media (max-width: 600px) {
+  .main .content {
+    padding: 30px 20px;
+  }
+}

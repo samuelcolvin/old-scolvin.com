@@ -1,0 +1,17 @@
+{
+    "context": {
+        "main_article": {
+            "type": "markdown",
+            "value": "s@muelcolvin.com"
+        },
+        "title": {
+            "type": "string",
+            "value": "Contact"
+        }
+    },
+    "id": 7,
+    "name": "contact",
+    "sitemap": "1",
+    "template": "std_page.template.html",
+    "template_repo": "default"
+}

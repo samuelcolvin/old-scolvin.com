@@ -1,0 +1,16 @@
+{
+    "context": {
+        "main_article": {
+            "type": "markdown",
+            "value": "Freelance Software Engineer\r\nSamuel Colvin\r\nAugust 2013 - Present (8 months) Mayfair, London\r\n\r\nMechanical Engineer (Tech & Field Program)\r\nSchlumberger\r\nMarch 2012 - August 2013 (1 year 6 months) Stonehouse, UK\r\n\r\nWorking on the DMM (Drilling Mechanics Module) tool for Schlumberger D&M.\r\n\r\nDirectional Driller (Tech & Field Program)\r\nSchlumberger\r\nAugust 2011 - April 2012 (9 months) Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program. Worked on Land rigs, Jack-ups and in deep water running motors and RSS tools.\r\n\r\nMWD Engineer (Tech & Field Program)\r\nSchlumberger\r\n\r\nSeptember 2010 - July 2011 (11 months) Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program."
+        },
+        "title": {
+            "type": "string",
+            "value": "CV"
+        }
+    },
+    "id": 8,
+    "name": "cv",
+    "template": "std_page.template.html",
+    "template_repo": "default"
+}
