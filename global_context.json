@@ -5,16 +5,40 @@
     "external_links": [
         {"link": "https://github.com/samuelcolvin", "name": "Github"},
         {"link": "http://stackoverflow.com/users/949890/scolvin", "name": "Stack Overflow"},
-        {"link": "http://uk.linkedin.com/pub/samuel-colvin/23/315/275/", "name": "Linkdin"}
+        {"link": "http://uk.linkedin.com/pub/samuel-colvin/23/315/275/", "name": "LinkedIn"}
     ],
     "page_menu": [
         {"link": "cv", "name": "CV"},
         {"link": "contact", "name": "Contact"}
     ],
     "bricks": [
-        {"link": "#", "name": "Tutor Cruncher", "tag": "Agency CRM, Invoice and Billing Software"},
-        {"link": "#", "name": "Donkey Simple", "tag": "Static Site generator"},
-        {"link": "#", "name": "Julia By Example", "tag": "Series of examples of simple tasks in Julia (Julia Lang)"},
-        {"link": "/browser/", "name": "Browser Features", "tag": "Series of examples of simple tasks in Julia (Julia Lang)"}
+        {
+            "link": "http://www.tutorcruncher.com/our-team/", 
+            "name": "Tutor Cruncher", 
+            "tag": "Agency CRM, Invoice and Billing Software",
+            "img": "tutorcruncher.jpg",
+            "style": "background-color: #016797"
+        },
+        {
+            "link": "https://github.com/samuelcolvin/donkey-simple", 
+            "name": "Donkey Simple", 
+            "tag": "Static Site generator",
+            "img": "",
+            "style": "background-color: #ddd"
+        },
+        {
+            "link": "http://www.scolvin.com/juliabyexample/", 
+            "name": "Julia By Example", 
+            "tag": "Series of examples of simple tasks in Julia (Julia Lang)",
+            "img": "julia.jpg",
+            "style": "background-color: white; border: 1px solid #aaa;"
+        },
+        {
+            "link": "http://www.scolvin.com/browser/", 
+            "name": "Browser Features", 
+            "tag": "Javascript utility to detect browser features",
+            "img": "",
+            "style": "background-color: #ddd"
+        }
     ]
 }

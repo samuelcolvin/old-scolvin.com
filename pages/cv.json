@@ -2,15 +2,16 @@
     "context": {
         "main_article": {
             "type": "markdown",
-            "value": "Freelance Software Engineer\r\nSamuel Colvin\r\nAugust 2013 - Present (8 months) Mayfair, London\r\n\r\nMechanical Engineer (Tech & Field Program)\r\nSchlumberger\r\nMarch 2012 - August 2013 (1 year 6 months) Stonehouse, UK\r\n\r\nWorking on the DMM (Drilling Mechanics Module) tool for Schlumberger D&M.\r\n\r\nDirectional Driller (Tech & Field Program)\r\nSchlumberger\r\nAugust 2011 - April 2012 (9 months) Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program. Worked on Land rigs, Jack-ups and in deep water running motors and RSS tools.\r\n\r\nMWD Engineer (Tech & Field Program)\r\nSchlumberger\r\n\r\nSeptember 2010 - July 2011 (11 months) Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program."
+            "value": "(full CV available on request)\r\n\r\n### Directory, CTO\r\n## TutorCruncher\r\nNovember 2013 - Present (5 months)London, United Kingdom\r\n\r\nHelping continue to add features to the leading agency management system as well as keeping the cloud platform fast and responsive as we grow quickly.\r\n\r\n## Freelance Software Engineer\r\nAugust 2013 - Present (8 months)Mayfair, London\r\n\r\n### Mechanical Engineer (Tech & Field Program)\r\n## Schlumberger\r\nMarch 2012 - August 2013 (1 year 6 months)Stonehouse, UK\r\n\r\nWorking on the DMM (Drilling Mechanics Module) tool for Schlumberger D&M.\r\n\r\n### Directional Driller (Tech & Field Program)\r\n## Schlumberger\r\nAugust 2011 - April 2012 (9 months)Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program. Worked on Land rigs, Jack-ups and in deep water running motors and RSS tools.\r\n\r\n### MWD Engineer (Tech & Field Program)\r\n## Schlumberger\r\nSeptember 2010 - July 2011 (11 months)Greater Jakarta Area, Indonesia\r\n\r\nPart of the first phase of the Tech & Field program.\r\n\r\n## University: Clare College, University Of Cambridge\r\n2006 to 2010\r\n### 4th Year: Merit, Master of Engineering\r\n\r\n**Modules:**\r\n\r\nComputational Fluid Dynamics (CFD) Aerodynamics\r\n\r\nFlow Instability\r\n\r\nTurbulence\r\n\r\nDesign Methods\r\n\r\nAdvanced Linear Vibrations\r\n\r\nInternational Business Economics\r\n\r\nApplications of Dynamics\r\n\r\n**Final Year Project:**\r\nCFD Analysis and Design of the 2011 Cambridge University Eco Racing Car\r\n\r\n### 3rd Year: 2.1, BA\r\n\r\n**Modules:**\r\n\r\nFluid Mechanics I\r\n\r\nFluid Mechanics II\r\n\r\nDynamics\r\n\r\nVibrations\r\n\r\nMachine Design\r\n\r\nModeling Risk\r\n\r\nSystems and Control\r\n\r\nPartial Differential Equations and Variational Methods"
         },
         "title": {
             "type": "string",
             "value": "CV"
         }
     },
-    "id": 8,
+    "id": 28,
     "name": "cv",
-    "template": "std_page.template.html",
+    "sitemap": "0.5",
+    "template": "page.template.html",
     "template_repo": "default"
 }

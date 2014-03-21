@@ -8,7 +8,7 @@ function draw_random(){
 	var canvas = $('#canvas_background');
 	var ctx = canvas[0].getContext('2d');
 	width = width + 20;
-	var height = $(window).height();
+	var height = $(document).height();
 	canvas.width(width);
 	ctx.canvas.width = width;
 	canvas.height(height);
@@ -31,7 +31,7 @@ function draw_random(){
 	var x0 = width % config.box / 2;
 	var red_line = 150;
 	
-    var main_block_start = $('.main').offset().left;
+    var main_block_start = $('.container').offset().left;
     var main_block_stop = main_block_start + $('.main').width();
     var f1 = config.fade_steps[0];
     if (animate){

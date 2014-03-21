@@ -1,0 +1,23 @@
+{% extends "default/page_base.template.html" %}
+
+{% block content %}
+    <div class="row">
+        {% for item in bricks %}
+            <div class="col-md-4 col-lg-3 col-sm-6">
+                <div class="brick" style="{{ item.style }}">
+                    <a href="{{ item.link }}" target="_blank">
+                        <div class="img-holder">
+                        {% if item.img %}
+                        <img src="{{ static }}{{ item.img }}" height="140"/>
+                        {% endif %}
+                        </div>
+                        <div class="descr">
+                            <h4>{{ item.name }}</h4>
+                            <span>{{ item.tag }}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

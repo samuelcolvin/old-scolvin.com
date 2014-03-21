@@ -2,16 +2,16 @@
     "context": {
         "main_article": {
             "type": "markdown",
-            "value": "s@muelcolvin.com"
+            "value": "**Email:**\r\n\r\n[s@muelcolvin.com](mailto:s@muelcolvin.com).\r\n\r\n**Office Address:**\r\n\r\n1-6 Yarmouth Place, Mayfair, London, W1J 7BU\r\n\r\n**Assorted Social Media:**\r\n\r\n[Facebook](https://www.facebook.com/samuel.colvin1)\r\n\r\n[Google Plus](https://plus.google.com/+SamuelColvin)"
         },
         "title": {
             "type": "string",
             "value": "Contact"
         }
     },
-    "id": 7,
+    "id": 29,
     "name": "contact",
     "sitemap": "1",
-    "template": "std_page.template.html",
+    "template": "page.template.html",
     "template_repo": "default"
 }

@@ -1,8 +1,8 @@
 {
     "context": {},
-    "id": 9,
+    "id": 21,
     "name": "index",
     "sitemap": "1",
-    "template": "page.template.html",
+    "template": "page_front.template.html",
     "template_repo": "default"
 }
