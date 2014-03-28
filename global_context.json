@@ -23,8 +23,8 @@
             "link": "https://github.com/samuelcolvin/donkey-simple", 
             "name": "Donkey Simple", 
             "tag": "Static Site Generator",
-            "img": "",
-            "style": "background-color: #ddd"
+            "img": "donkey-simple.png",
+            "style": "background-color: #0e00aa"
         },
         {
             "link": "http://www.scolvin.com/juliabyexample/", 
