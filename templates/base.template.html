@@ -7,9 +7,9 @@
 	  <meta name="description" content="{{description}}">
 	  <meta name="author" content="{{author}}">
 	  <title>{{ site_title }}{% if title %}{{ ' - ' + title }} {% endif %}</title>
-	  <link rel="icon" type="image/png" href="{{ static }}favicon.png" />
-      <link href="{{ static }}/libs/bootstrap.min.css" rel="stylesheet">
-      <link href="{{ static }}styles.css" rel="stylesheet">
+	  <link rel="icon" type="image/png" href="{{ site_uri }}{{ static }}favicon.png" />
+      <link href="{{ site_uri }}{{ static }}/libs/bootstrap.min.css" rel="stylesheet">
+      <link href="{{ site_uri }}{{ static }}styles.css" rel="stylesheet">
 	{% endblock head %}
   </head>
   <body {% block body_attr %}{% endblock %}>
@@ -17,9 +17,9 @@
   	{% block main %}{% endblock %}
   	
 	{% block js %}
-  	<script src="{{ static }}libs/jquery.min.js"></script>
-  	<script src="{{ static }}libs/bootstrap.min.js"></script>
-  	<script src="{{ static }}background.js"></script>
+  	<script src="{{ site_uri }}{{ static }}libs/jquery.min.js"></script>
+  	<script src="{{ site_uri }}{{ static }}libs/bootstrap.min.js"></script>
+  	<script src="{{ site_uri }}{{ static }}background.js"></script>
   	{% endblock %}
   	<script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
