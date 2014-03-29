@@ -39,6 +39,13 @@
             "tag": "Javascript utility to detect browser features",
             "img": "",
             "style": "background-color: #ddd"
+        },
+        {
+            "link": "/ballgame", 
+            "name": "Bounce", 
+            "tag": " Proof of concept, web based ball game",
+            "img": "ball_small.jpg",
+            "style": "background-color: #0d97f0"
         }
     ]
 }

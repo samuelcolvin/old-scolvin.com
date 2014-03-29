@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Bounce</title>
+    <link rel="icon" type="image/png" href="{{ site_uri }}{{ static }}favicon.png" />
+    <link href="{{ site_uri }}{{ static }}game_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="game">
+		<canvas id="main_canvas">
+			canvas not working.
+		</canvas>
+		<canvas id="debug_canvas">
+			canvas not working.
+		</canvas>
+		<div id="menu">
+			<h1>Bounce</h1>
+			<h2 id="menu-title">Start</h2>
+			<p class="score"></p>
+			<p>To play press start, control with a, d and space. Get points by hitting the balloons with the ball.</p>
+			<input id="start_reset" type="button" onclick="start()" value="Start">
+		</div>
+		<div class="score game-insert" id="score-insert">
+			Score: 0
+		</div>
+		<div id="pause" class="game-insert" onclick="pause_resume()">
+			Pause
+		</div>
+	</div>
+	<div id="debug-text">
+	</div>
+	<script type="text/javascript" src="{{ site_uri }}{{ static }}libs/easeljs.min.js"></script>
+	<script type="text/javascript" src="{{ site_uri }}{{ static }}libs/box2dweb/Box2dWeb-2.1.a.3.min.js"></script>
+	<script type="text/javascript" src="{{ site_uri }}{{ static }}libs/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ site_uri }}{{ static }}game.js"></script>
+	<script type="text/javascript" src="{{ site_uri }}{{ static }}game_start.js"></script>
+</body>
+</html>

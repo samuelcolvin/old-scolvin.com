@@ -1,0 +1,8 @@
+{
+    "context": {},
+    "id": 32,
+    "name": "ballgame",
+    "sitemap": "0.5",
+    "template": "game.template.html",
+    "template_repo": "default"
+}
